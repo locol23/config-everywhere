@@ -9,6 +9,7 @@
         }
       }
     ],
-    "unicorn/no-nested-ternary": "off"
+    "unicorn/no-nested-ternary": "off",
+    "unicorn/no-useless-undefined": "off"
   }
 }

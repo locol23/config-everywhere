@@ -1,8 +1,11 @@
 {
   "rules": {
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-handler-names": "off",
     "react/jsx-max-depth": ["error", { "max": 5 }],
     "react/display-name": "off",
+    "react/no-multi-comp": "off",
+    "react/only-export-components": "off",
     "react/react-in-jsx-scope": "off"
   }
 }

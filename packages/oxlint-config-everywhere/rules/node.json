@@ -1,3 +1,5 @@
 {
-  "rules": {}
+  "rules": {
+    "node/no-process-env": "off"
+  }
 }

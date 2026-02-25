@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "jsdoc/require-param": "off",
+    "jsdoc/require-returns": "off"
+  }
+}
