@@ -6,7 +6,8 @@
     "../rules/unicorn.json",
     "../rules/promise.json",
     "../rules/oxc.json",
-    "../rules/node.json"
+    "../rules/node.json",
+    "../rules/jsdoc.json"
   ],
   "plugins": ["import", "unicorn", "promise", "typescript", "node", "jsdoc"],
   "categories": {

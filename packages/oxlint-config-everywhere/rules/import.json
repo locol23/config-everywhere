@@ -5,10 +5,13 @@
     "import/group-exports": "off",
     "import/max-dependencies": "off",
     "import/no-anonymous-default-export": "off",
+    "import/no-default-export": "off",
     "import/no-named-export": "off",
     "import/no-namespace": "off",
     "import/no-nodejs-modules": "off",
+    "import/no-relative-parent-imports": "off",
     "import/no-unassigned-import": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/unambiguous": "off"
   }
 }

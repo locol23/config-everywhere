@@ -1,16 +1,21 @@
 {
   "rules": {
-    "no-console": "error",
     "arrow-body-style": ["error", "as-needed"],
-    "curly": "off",
+    "curly": ["error", "multi-line", "consistent"],
     "func-style": "off",
+    "id-length": "off",
     "max-lines-per-function": "off",
     "max-statements": "off",
     "new-cap": "off",
     "no-magic-numbers": "off",
-    "no-nested-ternary": "off",
+    "no-nested-ternary": "error",
     "no-ternary": "off",
+    "no-undefined": "off",
     "sort-imports": "off",
-    "sort-keys": "off"
+    "sort-keys": [
+      "error",
+      "asc",
+      { "natural": true, "allowLineSeparatedGroups": true }
+    ]
   }
 }
