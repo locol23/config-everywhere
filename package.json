@@ -20,7 +20,7 @@
     "vitest": "4.1.9"
   },
   "engines": {
-    "node": ">= 22.21.1"
+    "node": "v26.4.0"
   },
   "packageManager": "pnpm@10.34.4"
 }
