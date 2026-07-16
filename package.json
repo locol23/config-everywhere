@@ -6,7 +6,7 @@
     "lint": "eslint tests/"
   },
   "devDependencies": {
-    "@playwright/test": "1.61.0",
+    "@playwright/test": "1.61.1",
     "@storybook/react": "10.4.6",
     "@storybook/test": "8.6.15",
     "@testing-library/react": "16.3.2",
