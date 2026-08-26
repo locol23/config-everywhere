@@ -16,7 +16,7 @@
     "eslint-config-everywhere": "workspace:*",
     "react": "19.2.7",
     "storybook": "10.5.0",
-    "typescript": "5.9.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "engines": {
