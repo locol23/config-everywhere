@@ -1,61 +1,26 @@
 {
-  "name": "eslint-config-everywhere",
-  "version": "4.1.1",
-  "description": "ESLint config for everywhere",
-  "main": "index.js",
-  "files": [
-    "*.js"
-  ],
+  "name": "config-everywhere",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/locol23/eslint-config-everywhere.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "prettier",
-    "typescript",
-    "react",
-    "jest",
-    "testing-library"
-  ],
-  "author": "Yoshitaka Terazawa <locol6622@gmail.com>",
-  "engines": {
-    "node": ">= 18.18.0"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/locol23/eslint-config-everywhere/issues"
-  },
-  "homepage": "https://github.com/locol23/eslint-config-everywhere#readme",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^28.6.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-playwright": "^1.6.2",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-storybook": "^0.6.11",
-    "eslint-plugin-testing-library": "^6.1.0",
-    "eslint-plugin-typescript-sort-keys": "^3.0.0",
-    "eslint-plugin-unicorn": "^55.0.0"
+    "lint": "eslint tests/"
   },
   "devDependencies": {
-    "eslint": "^9.7.0",
-    "eslint-plugin-vitest": "^0.1.4",
-    "typescript": "^5.0.3"
+    "@playwright/test": "1.63.0",
+    "@storybook/react": "10.6.0",
+    "@storybook/test": "8.6.15",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/react": "19.2.18",
+    "eslint": "9.39.1",
+    "eslint-config-everywhere": "workspace:*",
+    "react": "19.2.8",
+    "storybook": "10.6.0",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
   },
-  "peerDependencies": {
-    "eslint": ">=^8.32.0"
+  "engines": {
+    "node": "26.8.1"
   },
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@10.34.5"
 }
