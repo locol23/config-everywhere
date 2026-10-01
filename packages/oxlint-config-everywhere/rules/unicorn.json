@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
+      }
+    ],
+    "unicorn/no-nested-ternary": "off",
+    "unicorn/no-useless-undefined": "off"
+  }
+}
