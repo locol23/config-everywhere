@@ -54,7 +54,7 @@ importers:
         specifier: 16.3.4
         version: 16.3.4(eslint@9.39.5)
       eslint:
-        specifier: '>=9.39.1 <10'
+        specifier: 9.39.5
         version: 9.39.5
       eslint-config-prettier:
         specifier: 10.1.8
@@ -72,8 +72,8 @@ importers:
         specifier: 4.15.1
         version: 4.15.1(eslint@9.39.5)(typescript@5.9.3)
       eslint-plugin-playwright:
-        specifier: 2.12.0
-        version: 2.12.0(eslint@9.39.5)
+        specifier: 2.12.1
+        version: 2.12.1(eslint@9.39.5)
       eslint-plugin-promise:
         specifier: 7.3.0
         version: 7.3.0(eslint@9.39.5)
@@ -90,8 +90,8 @@ importers:
         specifier: 7.16.2
         version: 7.16.2(eslint@9.39.5)(typescript@5.9.3)
       eslint-plugin-turbo:
-        specifier: 2.11.3
-        version: 2.11.3(eslint@9.39.5)(turbo@2.5.5)
+        specifier: 2.11.7
+        version: 2.11.7(eslint@9.39.5)(turbo@2.5.5)
       eslint-plugin-unicorn:
         specifier: 60.0.0
         version: 60.0.0(eslint@9.39.5)
@@ -1706,8 +1706,8 @@ packages:
     peerDependencies:
       eslint: '>=8.45.0'
 
-  eslint-plugin-playwright@2.12.0:
-    resolution: {integrity: sha512-7HpSKR/D2oCH4RKRauFskcrnDrHvLQKopW7Nen8lqrFZtx/SB+FgqVaH+zyQd32noZSZy9Lrsa+DsYrVUpn6hg==}
+  eslint-plugin-playwright@2.12.1:
+    resolution: {integrity: sha512-JhavNuYBIq7SE/Zg9Esf9RGHkXoDbzrEKS383cowzMyvZ4JMbmdNCN6CoW+RU1Cjzwcoea1tou0je58uXmT/9A==}
     engines: {node: '>=16.9.0'}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -1743,8 +1743,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
 
-  eslint-plugin-turbo@2.11.3:
-    resolution: {integrity: sha512-moidquRNi1eEcWdc//TilHc1EPOWm0ADNnEaIOuUyqOa6vxLy0DTf9ByRKYgnNE0dt+UB3V/gtJfilxCVaeZag==}
+  eslint-plugin-turbo@2.11.7:
+    resolution: {integrity: sha512-vFjI/0qxA9DFTMAOLhyVo7lFGh5kZ0wrWk+5tsQoafGPWqzTNmIMAjk7hsKLQGHOvLz42y8YIvrevHCbthFuZw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -4537,7 +4537,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-playwright@2.12.0(eslint@9.39.5):
+  eslint-plugin-playwright@2.12.1(eslint@9.39.5):
     dependencies:
       eslint: 9.39.5
       globals: 17.12.0
@@ -4591,7 +4591,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-turbo@2.11.3(eslint@9.39.5)(turbo@2.5.5):
+  eslint-plugin-turbo@2.11.7(eslint@9.39.5)(turbo@2.5.5):
     dependencies:
       dotenv: 16.0.3
       eslint: 9.39.5
