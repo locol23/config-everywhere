@@ -72,8 +72,8 @@ importers:
         specifier: 4.15.1
         version: 4.15.1(eslint@9.39.5)(typescript@5.9.3)
       eslint-plugin-playwright:
-        specifier: 2.12.0
-        version: 2.12.0(eslint@9.39.5)
+        specifier: 2.12.2
+        version: 2.12.2(eslint@9.39.5)
       eslint-plugin-promise:
         specifier: 7.3.0
         version: 7.3.0(eslint@9.39.5)
@@ -1706,8 +1706,8 @@ packages:
     peerDependencies:
       eslint: '>=8.45.0'
 
-  eslint-plugin-playwright@2.12.0:
-    resolution: {integrity: sha512-7HpSKR/D2oCH4RKRauFskcrnDrHvLQKopW7Nen8lqrFZtx/SB+FgqVaH+zyQd32noZSZy9Lrsa+DsYrVUpn6hg==}
+  eslint-plugin-playwright@2.12.2:
+    resolution: {integrity: sha512-sYRCyAEACD3URVoFTfldZcvZNdlJ1r5414gilOTsDCu26PY7l4dUl/3o9ohIEltZgaDS1VXD1mG5xU1KlIGJSw==}
     engines: {node: '>=16.9.0'}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -4537,7 +4537,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-playwright@2.12.0(eslint@9.39.5):
+  eslint-plugin-playwright@2.12.2(eslint@9.39.5):
     dependencies:
       eslint: 9.39.5
       globals: 17.12.0
