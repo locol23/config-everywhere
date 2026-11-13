@@ -43,7 +43,7 @@
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-storybook": "9.1.20",
     "eslint-plugin-testing-library": "7.16.2",
-    "eslint-plugin-turbo": "2.11.3",
+    "eslint-plugin-turbo": "2.11.10",
     "eslint-plugin-unicorn": "60.0.0",
     "eslint-plugin-vitest": "0.5.4",
     "globals": "17.12.0",
